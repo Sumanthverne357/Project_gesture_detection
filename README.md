@@ -5,9 +5,11 @@
 2. keep the Grove Smart IR Gesture Sensor in SPI mode
    
      All switches need to be toggled to the ON position
+    ![SPI_I2C_config](https://github.com/Sumanthverne357/Project_gesture_detection/assets/151477718/140b4a3f-643a-48ae-9f7c-6acb266c5685)
    
-3. Use the code BLE_main.py to read the guestures in your laptop/PC, run the following commands in command prompt
+4. Use the code BLE_main.py to read the guestures in your laptop/PC, run the following commands in command prompt
 
      pip install bleak
    
      pip install asyncio
+
