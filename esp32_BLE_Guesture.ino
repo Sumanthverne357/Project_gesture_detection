@@ -71,7 +71,8 @@ void printResultCombinedMode(const pag7660_gesture_t& result) {
     case 5:
         Serial.print(result.type);
         Serial.println("-finger");
-        DataToSend = String(result.type)+"-finger";
+        DataToSend =""
+        // DataToSend = String(result.type)+"-finger";
         break;
     case 6:
         Serial.print("Rotate Right ");
@@ -98,8 +99,9 @@ void printResultCombinedMode(const pag7660_gesture_t& result) {
     case 23:
         Serial.print(result.type - 19 + 1);
         Serial.println("-finger push");
-        x = result.type - 19 + 1 ;
-        DataToSend = x+"-finger_push";
+        DataToSend =""
+        // x = result.type - 19 + 1 ;
+        // DataToSend = x+"-finger_push";
         break;
     default:
         DataToSend ="";
