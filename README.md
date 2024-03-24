@@ -9,26 +9,27 @@
 
 3. Installation 
 
-     Manual installation 
+Manual installation 
 
-     # On Windows
-     python -m venv venv
+      #On Windows
+         python -m venv venv
 
      # On macOS/Linux
-     python3 -m venv venv
+        python3 -m venv venv
 
      # Activate the virtual environment
      # On Windows
-     .\venv\Scripts\activate
+        .\venv\Scripts\activate
 
      # On macOS/Linux
-     source venv/bin/activate
+        source venv/bin/activate
 
-     pip install -r requirements.txt
+         pip install -r requirements.txt
 
-          OR
-     run.sh as bash run.sh or ./run.sh
+   OR  
+   
+         run.sh as bash run.sh or ./run.sh
 
-4. Usage
+5. Usage
 
-     python app.py
+        python app.py
