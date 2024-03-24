@@ -1,0 +1,6 @@
+async-timeout==4.0.3
+asyncio==3.4.3
+bleak==0.21.1
+numpy==1.26.4
+opencv-python==4.9.0.80
+pillow==10.2.0
