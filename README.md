@@ -7,7 +7,7 @@
      All switches need to be toggled to the ON position
     ![SPI_I2C_config](https://github.com/Sumanthverne357/Project_gesture_detection/assets/151477718/140b4a3f-643a-48ae-9f7c-6acb266c5685)
 
-3. Installation
+3. Installation and Usage
 
             #On Windows
                python -m venv venv
@@ -25,7 +25,8 @@
                pip install -r requirements.txt
                #runing appliaction
                python app.py
-4.Runing appliaction
+   
+4.Runing appliaction ans Usage (alternative way)
 
    
             ./run.sh 
