@@ -7,29 +7,29 @@
      All switches need to be toggled to the ON position
     ![SPI_I2C_config](https://github.com/Sumanthverne357/Project_gesture_detection/assets/151477718/140b4a3f-643a-48ae-9f7c-6acb266c5685)
 
-3. Installation 
+3. Installation
 
-Manual installation 
+            #On Windows
+               python -m venv venv
+           #On macOS/Linux
+              python3 -m venv venv
+         
+           # Activate the virtual environment
+           # On Windows
+              .\venv\Scripts\activate
+         
+           # On macOS/Linux
+               source venv/bin/activate
+         
+            # installation of LIB files to prject
+               pip install -r requirements.txt
+               #runing appliaction
+               python app.py
+4.Runing appliaction
 
-      #On Windows
-         python -m venv venv
-
-     # On macOS/Linux
-        python3 -m venv venv
-
-     # Activate the virtual environment
-     # On Windows
-        .\venv\Scripts\activate
-
-     # On macOS/Linux
-        source venv/bin/activate
-
-         pip install -r requirements.txt
-
-   OR  
    
-         run.sh as bash run.sh or ./run.sh
-
-5. Usage
-
-        python app.py
+            ./run.sh 
+            
+or 
+            
+            bash run.sh
