@@ -9,6 +9,14 @@
 
 3. Installation and Usage
 
+            # git clone project
+            git clone git@github.com:sharathnarayan12/Project_gesture_detection.git
+   
+            #change the directory into main project
+            cd Project_gesture_detection
+
+   """ continue or skip the step to 4  after above steps"""
+
             #On Windows
                python -m venv venv
            #On macOS/Linux
